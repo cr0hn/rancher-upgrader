@@ -17,7 +17,7 @@ setup(
     },
 
     author='Daniel Garcia (cr0hn)',
-    author_email='cr0hn[--at--]cr0hn.com',
+    author_email='cr0hn@cr0hn.com',
     description='Small utility to upgrade Rancher Services',
     classifiers=[
         'Environment :: Console',
