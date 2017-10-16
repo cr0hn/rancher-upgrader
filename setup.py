@@ -15,7 +15,7 @@ setup(
             'rancher-upgrader = rancher_upgrader.rancher_upgrader:main',
         ]
     },
-
+    url="https://github.com/cr0hn/rancher-upgrader",
     author='Daniel Garcia (cr0hn)',
     author_email='cr0hn@cr0hn.com',
     description='Small utility to upgrade Rancher Services',
