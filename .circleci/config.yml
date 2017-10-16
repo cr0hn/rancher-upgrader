@@ -12,8 +12,3 @@ jobs:
       - deploy:
           name: Upload to pypi
           command: make upload-pypi
-
-      - deploy:
-          name: Push Docker image
-          branch: master
-          command: make docker-image
