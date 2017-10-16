@@ -5,7 +5,7 @@ Code | https://github.com/cr0hn/rancher-upgrader
 ---- | ----------------------------------------------
 Issues | https://github.com/cr0hn/rancher-upgrader/issues
 Python version | Python 3.5 or above
-Authors | @ggdaniel (cr0hn)
+Author | Daniel García (cr0hn) - @ggdaniel
 Last version | 1.0.0
 
 *The script needs Python 3 (really I don't test it in Python 2)*
@@ -76,6 +76,6 @@ Important things
 License
 =======
 
-This project is distributed under `BSD clausule 3 <https://github.com/cr0hn/rancher_upgrader/blob/master/LICENSE>`_
+This project is distributed under [BSD clausule 3](<https://github.com/cr0hn/rancher_upgrader/blob/master/LICENSE)
 
 
