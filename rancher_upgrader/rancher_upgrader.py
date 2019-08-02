@@ -239,7 +239,6 @@ def main():
     extra_opt.add_argument('--sleep',
                            dest="SLEEP_TIME",
                            help="sleep time while checking upgrading process",
-                           action="store_true",
                            default=5)
 
     parsed = parser.parse_args()
@@ -252,8 +251,8 @@ def main():
         rancher_url=parsed.RANCHER_URL,
         rancher_access_key=parsed.RANCHER_ACCESS_KEY,
         rancher_secret_key=parsed.RANCHER_SECRET_KEY,
-        retries=parsed.MAX_RETRIES,
-        sleep_time=parsed.SLEEP_TIME
+        retries=int(parsed.MAX_RETRIES),
+        sleep_time=int(parsed.SLEEP_TIME)
     )
 
     try:
