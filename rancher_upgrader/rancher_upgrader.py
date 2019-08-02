@@ -239,7 +239,6 @@ def main():
     extra_opt.add_argument('--sleep',
                            dest="SLEEP_TIME",
                            help="sleep time while checking upgrading process",
-                           action="store_true",
                            default=5)
 
     parsed = parser.parse_args()
