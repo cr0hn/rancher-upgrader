@@ -10,6 +10,11 @@ Last version | 1.0.0
 
 *The script needs Python 3 (really I don't test it in Python 2)*
 
+Support this project
+====================
+
+Support this project (to solve issues, new features...) by applying the Github "Sponsor" button.
+
 Briefing
 ========
 
